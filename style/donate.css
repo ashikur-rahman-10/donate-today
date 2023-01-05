@@ -2,3 +2,148 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+.top-banner{
+    height: 713px;
+    background-image: url(../images/donation1.jpg);
+    background-size: cover;
+}
+.header-title
+{
+    padding-top: 250px;
+    text-align: center;
+    font-size: 35px;
+    color: aliceblue;
+
+}
+.header-comment{
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 250px;
+    color: rgb(177, 180, 183);
+    
+}
+.btn-primary{
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    background-color: rgb(255, 30, 30);
+    color: aliceblue;
+
+    
+}
+.btn{
+    padding-top: 15px;
+    text-align: center;
+}
+
+/*-- Main--*/
+.title{
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+.donate-today
+{  
+    margin: 0 297px;
+    
+    padding: 30px 0;
+}
+.taka{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 75px;
+    
+}
+
+.amount{
+    background-color: rgb(231, 235, 235);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 40px 40px;
+    border: none;
+    border-radius: 5px;
+
+
+}
+.amount:hover {
+    color:rgb(255, 30, 30);
+    border:5px solid rgb(255, 30, 30);
+    font-weight: 900;
+    box-shadow: 10px 10px;
+   }
+   /*--Our Plan style--*/
+.plans{
+    display: flex;
+    gap: 28px;
+    margin: 50px 200px;
+
+}  
+.food:hover {
+    color:rgb(177, 180, 183);
+    border:5px solid rgb(255, 30, 30);
+    font-weight: 900;
+    box-shadow: 10px 10px;
+   } 
+   .shelter:hover {
+    color:rgb(177, 180, 183);
+    border:5px solid rgb(255, 30, 30);
+    font-weight: 900;
+    box-shadow: 10px 10px;
+   } 
+   .education:hover {
+    color:rgb(177, 180, 183);
+    border:5px solid rgb(255, 30, 30);
+    font-weight: 900;
+    box-shadow: 10px 10px;
+   } 
+.plan-title{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.plan-comment{
+    font-size: 14px;
+    color: rgb(177, 180, 183);
+}
+.contibute-content{
+    display: flex;
+    gap: 50px;
+    padding-top: 50px;
+    margin: 50px 200px;
+}
+.contribute-title{
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+    padding-bottom: 40px
+}
+.contri-comment{
+    font-size: 18px;
+    padding-bottom: 40px;
+    
+}
+.email{
+    background-color: darkgoldenrod;
+    height: 250px;
+    text-align: center;
+    margin: 0 300px 80px 300px;
+}
+
+input[type="email"]{
+    height: 25px;
+    background-color: rgb(227, 231, 235);
+}
+.eml{
+    padding-top: 120px;
+}
+footer{
+    background-color: black;
+    height: 100px;
+    text-align: center;
+
+}
